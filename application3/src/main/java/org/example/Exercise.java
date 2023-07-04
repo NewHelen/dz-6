@@ -14,8 +14,8 @@ public class Exercise {
 
             char[] myCharsArray = str.toCharArray();
 
-            for (int i = 0; i < str.length(); i++) {
-                for (int j = i + 1; j < str.length(); j++) {
+            for (int i = 0; i < myCharsArray.length; i++) {
+                for (int j = i + 1; j < myCharsArray.length; j++) {
                     if (myCharsArray[i] == myCharsArray[j]) {
 
                         String valueOfchar = String.valueOf(myCharsArray[j]);
