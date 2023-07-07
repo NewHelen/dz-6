@@ -1,14 +1,19 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.Set;
+
 public class Main {
+
     public static void main(String[] args) {
 
-        String[] strings = {"mama","papa","test"};
+        Exercise9 ex = new Exercise9();
 
-        Exercise exercise = new Exercise();
-        System.out.println(exercise.function1(strings));
+        String[] strings = {"mama", "papa", "test", "dada"};
 
+        Set<Character> set = ex.myFunction(strings);
+        for (Character ch : set) {
+            System.out.print(ch);
+        }
     }
-
 }
-
