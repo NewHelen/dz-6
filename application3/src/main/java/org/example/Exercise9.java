@@ -27,7 +27,7 @@ public class Exercise9 {
                 }
             }
             if (isGood) result.add(str);
-            if (result.size() == 2) break;
+            if (result.size() == limit) break;
         }
         return result;
     }

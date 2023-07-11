@@ -9,7 +9,7 @@ public class Main {
 
         Exercise9 ex = new Exercise9();
 
-        String[] strings = {"mama", "papa", "test", "dada"};
+        String[] strings = {"mama", "papapa", "test", "dada"};
 
         Set<Character> set = ex.myFunction(strings);
         for (Character ch : set) {
